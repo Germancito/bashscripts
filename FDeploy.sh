@@ -8,5 +8,5 @@ then
 fi
 
 
-sshpass -p 'Ozzi#1988' scp ~/ver/frontend$1.tar.gz ozzy@192.168.1.129:~/ver
+sshpass -p 'Ozzi#1988' scp /home/ozzy/frontend$1.tar.gz ozzy@192.168.1.129:~/ver
 

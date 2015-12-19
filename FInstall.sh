@@ -1,6 +1,6 @@
 #!/bin/bash
 
-var = ~/ver/$1
+var = home/ozzy/ver/$1
 
 if [ -z "$var" ];
 then
@@ -14,7 +14,7 @@ then
 	exit 1
 fi
 
-tar -xzvf ~/ver/frontend1.tar.gz -C ~/git/frontendFinal
+tar -xzvf ~/ver/frontend1.tar.gz -C /var/www/html/frontendFinal
 
 
 
