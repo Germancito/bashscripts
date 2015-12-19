@@ -1,4 +1,4 @@
 #!/bin/sh
 
-tar -czfv home/ozzy/ver/frontend_$1.tar.gz  var/www/html/frontendFinal
+tar -czfv /home/ozzy/ver/frontend$1.tar.gz  /var/www/html/frontendFinal
 
